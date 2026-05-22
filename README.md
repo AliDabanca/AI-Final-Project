@@ -26,6 +26,17 @@ We evaluate the model across 4 distinct behavioral configurations:
 
 ---
 
+## 🚀 Quick Start & Environment Configuration
+
+To keep this project secure and comply with open-source best practices, **API keys and tokens are not included in this repository**. You must provide your own credentials using a local configuration file.
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/your-username/persona-llm-hallucination.git](https://github.com/your-username/persona-llm-hallucination.git)
+cd persona-llm-hallucination
+
+---
+
 ## 📁 Repository Structure
 
 ```text
@@ -41,11 +52,4 @@ We evaluate the model across 4 distinct behavioral configurations:
     ├── raw_responses_skeptic_30.csv    # Critical Skeptic outputs on the hardest 30 Qs
     └── persona_skeptic_analysis_30.csv # Critical Skeptic final evaluation metrics
 
-## 🚀 Quick Start & Environment Configuration
 
-To keep this project secure and comply with open-source best practices, **API keys and tokens are not included in this repository**. You must provide your own credentials using a local configuration file.
-
-### 1. Clone the Repository
-```bash
-git clone [https://github.com/your-username/persona-llm-hallucination.git](https://github.com/your-username/persona-llm-hallucination.git)
-cd persona-llm-hallucination
